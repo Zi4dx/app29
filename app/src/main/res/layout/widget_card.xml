@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent"
+ android:orientation="vertical" android:gravity="center_vertical"
+ android:padding="18dp" android:background="@drawable/widget_bg">
+ <TextView android:id="@+id/widget_heading" android:layout_width="match_parent"
+  android:layout_height="wrap_content" android:text="NOVA" android:textColor="#C6B17D"
+  android:textSize="11sp" android:letterSpacing="0.12" android:fontFamily="sans"/>
+ <ImageView android:id="@+id/widget_body_image" android:layout_width="match_parent"
+  android:layout_height="54dp" android:layout_marginTop="7dp"
+  android:scaleType="fitStart" android:contentDescription="Widget content"/>
+</LinearLayout>
